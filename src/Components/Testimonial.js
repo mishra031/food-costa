@@ -9,17 +9,15 @@ const Testimonial = () => {
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
- <p> 
-    An unforgettable dining experience! The flavors were rich, the ambiance
-    was elegant, and the service made us feel truly special. 
-  </p>
+     <p>
+  “Fresh flavors, chill atmosphere, and super friendly service.”
+</p>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
-    <p>
-         Every dish was  beautifully presented and absolutely delicious. 
-      This is now our go-to place for family dinners and celebrations.
-        </p>
+          <p>
+  “A cozy café with tasty food and feel-good vibes — totally worth it!”
+</p>
         <div className="testimonials-stars-container">
           <AiFillStar />
           <AiFillStar />
@@ -27,7 +25,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-         <h2>Jenny</h2>
+        <h2>Herry</h2>
       </div>
     </div>
   );
